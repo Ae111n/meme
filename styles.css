@@ -1,5 +1,6 @@
 body{
-    background: url(https://www.gamepur.com/wp-content/uploads/2022/02/17184159/Elden-Ring-Margit-The-Fell-Omen.jpg?w=1200)100% no-repeat fixed;
+    background: rgb(0,0,0);
+background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(108,4,4,1) 0%, rgba(0,0,0,1) 100%);
 }
 
 #boss{
