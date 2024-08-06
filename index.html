@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.7.16/dist/vue.js"></script>
+
+    <title>vue2 test</title>
+</head>
+<body>
+     <div id="vue-app">
+        <div id="boss" v-bind:class="{dead : ended}"></div>
+        <P>{{aalert}}</P>
+        <div id="boss-health">
+            <div v-bind:style="{width: health + '%'}"></div>
+        </div>
+
+        <div id="controls">
+            <button @click="hit" v-show="!ended">🗡️</button>
+            <button @click="restart">🔄</button>
+        </div>
+
+     </div>
+</body>
+<script src="script.js"></script>
+</html>
